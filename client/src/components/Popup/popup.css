@@ -1,0 +1,215 @@
+.grayBackground {
+  width: 100%;
+  height: 100vh;
+  background: #3b3a3aed;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+.cross {
+  cursor: pointer;
+}
+.popupBox {
+  width: 88%;
+  background: #fff;
+  overflow: scroll;
+  width: 95%;
+  background: #fff;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 16px;
+  padding: 14px 0px;
+}
+.popupBoxHeader {
+  width: 100%;
+  margin-bottom: 23px;
+  padding: 0px 1px 0px 30px;
+  border-bottom: 1px solid #80808047;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.content_Box {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 92%;
+  border-radius: 10px;
+}
+.MajorModules {
+  padding-top: 22px;
+}
+.MajorModulesItems {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+.MajorItem {
+  height: auto;
+  padding: 6px 5px 6px 20px;
+  border-bottom: 1px solid #80808047;
+}
+.SoftwareLearnBox {
+  /* border-top: 1px solid #80808047; */
+  padding-top: 16px;
+}
+.SoftwareLearn {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.Logos {
+  width: 118px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Logos img {
+  width: 100%;
+}
+.PopupProjectBox {
+  padding: 0px 0px 26px 0px;
+  /* border-top: 1px solid; */
+  margin-top: 30px;
+  border-top: 1px solid #80808047;
+}
+
+.projectItems {
+  overflow: scroll;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 140px;
+}
+.projectItems > * {
+  flex: 0 0 183px;
+}
+.projectItem {
+  height: 120px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px 7px;
+  padding: 9px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.projectItem img {
+  width: 100%;
+}
+.ExpertProfile {
+  padding: 11px 0px;
+  border-top: 1px solid #80808047;
+}
+
+.expertItems {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  padding: 3px 0px;
+  justify-content: left;
+}
+.expertItems > * {
+  flex: 0 0 330px;
+}
+.expertCard {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  height: 402px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  margin: 0px 10px;
+}
+.expertCardAvatarBox {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 49px;
+}
+.expertCardAvatarBox img {
+  width: 100%;
+}
+.expertCardM {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 140px;
+}
+.expertCardLogoBox {
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 149px;
+  height: 34px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.CardFooterText {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+}
+.expertCardFooter {
+  padding: 6px 15px;
+}
+@media only screen and (min-width: 600px) {
+  .content_Box {
+    min-width: 705px;
+  }
+  .popupBox {
+    width: 51%;
+    margin-top: 6px;
+    min-width: 768px;
+  }
+  .SoftwareLearn {
+    /* justify-content: left; */
+  }
+  .Logos {
+    margin: 11px;
+    display: flex;
+    justify-content: center;
+  }
+  .l1 {
+    width: 116px;
+  }
+  .l2 {
+    width: 165px;
+  }
+  .l3 {
+    width: 186px;
+  }
+  .l4 {
+    width: 213px;
+  }
+  .projectItems {
+    overflow: unset;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .projectItem {
+    margin: 9px 8px;
+    height: 124px;
+  }
+  .projectItems > * {
+    flex: 0 0 219px;
+  }
+  .expertItems {
+    justify-content: space-evenly;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .popupBoxHeader {
+    padding: 0px 18px 0px 30px;
+  }
+}

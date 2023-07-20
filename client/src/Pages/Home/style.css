@@ -1,0 +1,372 @@
+.HContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../../Assets/images/NewImages/stack-old-books-wooden-table-generated-by-ai\ mobile.png);
+  padding-top: 77px;
+  height: 1310px;
+}
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 3%;
+}
+.homeBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btnMediaBox {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.watchVideoMediaBox {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  padding-left: 7vh;
+  cursor: pointer;
+}
+
+.mediaGirlImage {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
+}
+.redPlayBtn {
+  width: 65px;
+  height: 65px;
+  position: relative;
+  right: 34px;
+  top: 10px;
+}
+
+.mediaBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 23px;
+}
+.aboutBox {
+  padding-top: 51%;
+  color: #fff;
+  margin-bottom: 28px;
+}
+.textBox h4 {
+  text-align: center;
+  font-family: "Poppins-Bold";
+  margin-bottom: 20px;
+}
+.contactBoxItemSubHeader {
+  font-family: "Poppins-Regular" !important;
+  margin-top: 7px !important;
+}
+.homeImageBox {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.playWhiteBtn {
+  height: 66px;
+  position: relative;
+  right: 31%;
+  top: 20%;
+}
+.playBtn {
+  height: 7px;
+  position: relative;
+  top: 38%;
+  right: 52%;
+}
+.mediaText {
+  width: 100%;
+  position: relative;
+  top: 30%;
+  right: 26%;
+  font-weight: 700 !important;
+  color: #3a2a2a;
+}
+.contactBox {
+  border-top: 3px solid #f69400;
+  width: 92%;
+  height: 644px;
+  display: flex;
+  flex-direction: column;
+  padding: 21px;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.12);
+}
+ul li {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0px 0px 9px 35px;
+}
+.contactUl {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 5px 0px 9px 42px;
+}
+/* .nameInputFieldBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} */
+.inputField {
+  height: 54px;
+}
+.inputF {
+  border-radius: 5px;
+}
+.contactBoxItem {
+}
+.home_card_input {
+  height: 54px;
+}
+.firstNameLog {
+  position: relative;
+  bottom: 32px;
+  left: 91%;
+}
+.lastNameLog {
+  position: relative;
+  bottom: 32px;
+  left: 91%;
+}
+.emailLog {
+  position: relative;
+  bottom: 34px;
+  left: 91%;
+}
+.flagLog {
+  position: relative;
+  bottom: 61%;
+  left: 91%;
+}
+.PhoneInput {
+  border-radius: 23px;
+  height: 45px;
+  border: rgba(128, 128, 128, 0.438) 1px solid;
+  padding-left: 22px;
+  display: flex;
+  align-items: normal;
+}
+.PhoneInputInput {
+  border: rgba(204, 41, 41, 0) 1px dotted;
+  background: #ffffff00;
+  border-radius: 0px 22px 24px 0px;
+}
+.PhoneInputInput:focus {
+  outline: none;
+}
+.PhoneInputCountryIcon--border {
+  border-radius: 11px;
+  overflow: hidden;
+  height: 22px;
+}
+.homeItemBox {
+  padding: 25px 0px;
+}
+.inputBoxHeader {
+  font-size: 19px !important;
+  font-family: "Poppins-Regular" !important;
+}
+#EnrollBtnBox div {
+  margin-top: 17px;
+}
+.firstLine {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.g {
+  font-size: 27px !important;
+  margin-bottom: 0px !important;
+}
+.v {
+  font-size: 23px !important;
+}
+.secondLineText {
+  font-size: 26px !important;
+}
+.forthLineText {
+  text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .firstLine {
+    justify-content: left;
+  }
+  .g {
+    font-size: 38px !important;
+    margin-bottom: 0px !important;
+  }
+  .v {
+    font-size: 40px !important;
+  }
+  .secondLineText {
+    font-size: 47px !important;
+  }
+  .forthLineText {
+    text-align: left;
+  }
+  .HContainer {
+    background-image: url(../../Assets/images/NewImages/stack-old-books-wooden-table-generated-by-ai.png);
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 0;
+    height: 0;
+    min-height: 1070px;
+  }
+  .homeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 3%;
+  }
+  .homeBox {
+    width: 45%;
+    height: 550px;
+  }
+  .textBox h4 {
+    text-align: left;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+    margin-bottom: 25px;
+  }
+  .btnMediaBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+  .watchVideoMediaBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .aboutBox {
+    padding-top: 9%;
+    padding-left: 4%;
+  }
+  .inputBoxHeader {
+    font-size: 25px !important;
+  }
+  .homeImageBox {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .playWhiteBtn {
+    height: 66px;
+    position: relative;
+    right: 31%;
+    top: 20%;
+  }
+  .playBtn {
+    height: 7px;
+    position: relative;
+    top: 38%;
+    right: 52%;
+  }
+  .mediaText {
+    width: 100%;
+    position: relative;
+    top: 30%;
+    right: 26%;
+    font-weight: 700 !important;
+    color: #3a2a2a;
+  }
+  .contactBox {
+    border-top: 3px solid #f69400;
+    width: 530px;
+    height: 578px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.12);
+  }
+  ul li {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0px 0px 9px 35px;
+  }
+  .nameInputFieldBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .inputField {
+    width: 47%;
+  }
+  .inputF {
+    border-radius: 5px;
+  }
+  .contactBoxItem {
+  }
+  .firstNameLog {
+    position: relative;
+    bottom: 32px;
+    left: 87%;
+  }
+  .lastNameLog {
+    position: relative;
+    bottom: 32px;
+    left: 87%;
+  }
+  .emailLog {
+    position: relative;
+    bottom: 34px;
+    left: 94%;
+  }
+  .flagLog {
+    position: relative;
+    bottom: 62%;
+    left: 93%;
+  }
+  .PhoneInput {
+    border-radius: 23px;
+    height: 45px;
+    border: rgba(128, 128, 128, 0.438) 1px solid;
+    padding-left: 22px;
+    display: flex;
+    align-items: normal;
+  }
+  .PhoneInputInput {
+    border: rgba(204, 41, 41, 0) 1px dotted;
+  }
+  .PhoneInputInput:focus {
+    outline: none;
+  }
+  .PhoneInputCountryIcon--border {
+    border-radius: 11px;
+    overflow: hidden;
+    height: 22px;
+  }
+  .homeItemBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    height: 600px;
+  }
+  .mediaBtn {
+    margin-top: 0px;
+  }
+  #EnrollBtnBox div {
+    margin-top: 10px;
+  }
+  .contactBoxItemSubHeader {
+    margin-top: 0px !important;
+  }
+  .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 11.5px 14px !important;
+  }
+}

@@ -1,0 +1,244 @@
+.workFlowBox {
+  width: 100%;
+  /* height: 770px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  background: #efffe2;
+  align-items: center;
+}
+.workFlowHeader {
+  width: 100%;
+}
+.workFlowItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.workFlowItem {
+  border-image-slice: 1;
+  border-image-repeat: stretch;
+  border-radius: 10px;
+  width: 300px;
+  height: 325px;
+  padding: 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  margin: 20px 15px 20px 15px;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+  z-index: 1;
+  position: relative;
+}
+.workFlowItem1 {
+  background: linear-gradient(131deg, #7de126 8%, transparent 55.04%);
+}
+
+.workFlowItem1::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  background: #dfffc4;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.workFlowItem2 {
+  background: linear-gradient(131deg, #dc5cfff2 8%, transparent 55.04%);
+}
+.workFlowItem2::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  background: #f7dbff;
+  border-radius: 10px;
+  z-index: -1;
+}
+.workFlowItem4 {
+  background: linear-gradient(131deg, #d37d68 8%, transparent 55.04%);
+}
+.workFlowItem4::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  background: #ffdfd7;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.workFlowItem3 {
+  background: #13488b;
+  /* box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1); */
+  border: 2px solid #13488b;
+  border-radius: 10px;
+}
+
+.logoBG {
+  width: 80px;
+  height: 80px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  padding: 16px;
+}
+.logoBackground1 {
+  background: #c6eda6;
+}
+.logoBackground2 {
+  background: rgba(241, 191, 255, 1);
+}
+
+.logoBackground4 {
+  background: rgba(240, 193, 181, 1);
+}
+
+.WorkFlowItemBoxCenterText {
+  color: #2a2a2a;
+  font-weight: 700 !important;
+}
+.WorkflowPByText {
+  color: #0897aa;
+  cursor: pointer;
+  font-family: "Satoshi" !important;
+}
+.companyLogoBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.companyLogo {
+  width: 106px;
+  height: 27px;
+  margin: 5px 20px 5px 0px;
+  cursor: pointer;
+}
+.companyLogoImg {
+  width: 38%;
+  height: 38%;
+}
+.workFlowBtn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 12px;
+}
+.btnBox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.fortBoxhLogo {
+  width: 52px;
+  height: 52px;
+}
+.bold_Font {
+  font-size: 42px !important;
+}
+.FContainer {
+  width: 100%;
+  position: relative;
+  right: 21px;
+}
+@media only screen and (min-width: 600px) {
+  .workFlowBox {
+    width: 100%;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    background: #efffe2;
+  }
+  .workFlowHeader {
+    width: 65%;
+  }
+  .workFlowItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0px;
+  }
+  .workFlowItem {
+    border-image-slice: 1;
+    border-image-repeat: stretch;
+    border-radius: 10px;
+    width: 300px;
+    height: 371px;
+    padding: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    margin: 0px 15px 0px 15px;
+    cursor: pointer;
+  }
+
+  .logoBG {
+    width: 80px;
+    height: 80px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    padding: 16px;
+  }
+  .logoBackground1 {
+    background: #c6eda6;
+  }
+  .logoBackground2 {
+    background: rgba(241, 191, 255, 1);
+  }
+
+  .logoBackground4 {
+    background: rgba(240, 193, 181, 1);
+  }
+
+  .WorkFlowItemBoxCenterText {
+    color: #2a2a2a;
+    font-weight: 700 !important;
+  }
+  .WorkflowPByText {
+    color: #0897aa;
+    cursor: pointer;
+  }
+  .companyLogoBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .companyLogo {
+    width: 112px;
+    margin: 3px 16px 8px 0px;
+    cursor: pointer;
+  }
+  .companyLogoImg {
+    width: 38%;
+    height: 38%;
+  }
+  .workFlowBtn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .btnBox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .fortBoxhLogo {
+    width: 52px;
+    height: 52px;
+  }
+}

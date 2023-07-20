@@ -1,0 +1,251 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  padding-top: 46px;
+}
+.placementHeading {
+  font-size: 42px !important;
+}
+.placementSubHeading {
+  margin: 10px 0px !important;
+  font-family: Satoshi !important;
+  font-size: 22px !important;
+}
+.placementItems {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  overflow: scroll;
+  height: 250px;
+  padding-top: 5px;
+}
+.placementItems > * {
+  flex: 0 0 240px;
+}
+.companyLogoImage {
+  width: 77px;
+}
+
+.placementCompanyLogosBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #efffe2;
+}
+.placementCompanyLogosItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.placementCompanyLogosItem {
+  height: 70px;
+  text-align: center;
+  margin: 0px 10px;
+  cursor: pointer;
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+.archiveBox {
+  width: 90%;
+  height: 360px;
+  margin-top: 30px;
+  border-radius: 56px 0px 0px 0px;
+  background-size: cover;
+  background-image: url("../../Assets/images/AchivmentBg.png");
+  padding: 82px;
+  color: #ffff;
+}
+.banarBox {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+.AchievementBackground {
+  position: absolute;
+  right: 0vh;
+  margin-top: 96px;
+  border-radius: 56px 0px 0px 0px;
+}
+.ForthBoxCardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* text-align: center; */
+}
+.cardBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  overflow: scroll;
+}
+.cardBox > * {
+  flex: 0 0 413px;
+}
+.ForthBoxCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 5px 30px rgba(116, 116, 116, 0.25);
+  border-radius: 5px;
+  margin: 0px 16px;
+  box-shadow: 0px 5px 30px rgba(116, 116, 116, 0.25);
+  border-radius: 5px;
+}
+.profileBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-left: 15px;
+}
+.profilePhoto {
+  width: 80px;
+  height: 80px;
+  border-radius: 52px;
+  overflow: hidden;
+  margin-right: 13px;
+}
+.profilePhoto img {
+  width: 100%;
+}
+.profileInfo {
+  padding: 14px 0px 0px 10px;
+  width: 319px;
+}
+.TextBox {
+  padding: 18px 22px 0px 22px;
+}
+.cardFooter {
+  height: 124px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 0px 0px 5px 5px;
+}
+.footerInrBox {
+  width: 50%;
+  color: #ffff;
+  padding: 11px 5px 8px 25px;
+  display: flex;
+  flex-direction: column;
+}
+.footerInrBoxBgLight {
+  background: #286bbe;
+}
+.footerInrBoxBgDark {
+  background: #13488b;
+}
+.FooterSubText {
+  text-align: left !important;
+}
+.footerCompanyLogo {
+  width: 52%;
+}
+.ScrollBtn {
+  display: none;
+}
+.ratingBox {
+  display: flex;
+  flex-direction: column;
+  padding-top: 55px;
+}
+.ratingItemBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  overflow: scroll;
+  height: 235px;
+}
+.ratingItemBox > * {
+  flex: 0 0 302px;
+}
+.ratingItem {
+  width: 302px;
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  justify-content: center;
+  margin: 17px 20px;
+}
+.ratingStars {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.whiteArrow {
+  width: 40px;
+  position: relative;
+  left: 195px;
+  top: 405px;
+}
+@media only screen and (min-width: 600px) {
+  .placementItems {
+    overflow: unset;
+    justify-content: center;
+  }
+  .cardBox {
+    width: 1335px;
+    justify-content: left;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    height: 507px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .companyLogoImage {
+    width: 95%;
+  }
+  .placementCompanyLogosItems {
+    padding: 0px 130px;
+  }
+  .placementCompanyLogosItem {
+    width: 226px;
+    height: 113px;
+  }
+  .scrollContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .ScrollBtn {
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .ratingBox {
+    padding: 42px 0px;
+  }
+  .ratingItemBox {
+    justify-content: center;
+    height: 223px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .placementItems > * {
+    flex: 0 0 240px;
+  }
+  .arrowBox {
+    display: flex;
+    flex-direction: row;
+  }
+  .arrowDisabled {
+    pointer-events: none;
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .placementCompanyLogosBox {
+    height: 587px;
+  }
+  .whiteArrow {
+    width: 40px;
+    position: relative;
+    left: 195px;
+    top: 447px;
+  }
+}

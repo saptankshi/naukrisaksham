@@ -1,0 +1,139 @@
+.mediaContainer {
+  padding: 22px 0px;
+}
+.YouTubeContent {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  height: 463px;
+}
+.videoItem {
+  margin: 14px;
+}
+.YouTubeContent > * {
+  flex: 0 0 300px;
+}
+.YouTubeLogo {
+  position: relative;
+  bottom: 220px;
+  left: 126px;
+}
+.YouTubeCoverText {
+  position: relative;
+  bottom: 207px;
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+.grayBox {
+  width: 100%;
+  height: 390px;
+  position: relative;
+  bottom: 470px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 38.1%, #000000 100%);
+}
+.featuresBox {
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+  align-items: center;
+  margin-top: 30px;
+}
+.featuresCard {
+  width: 95%;
+  height: 410px;
+  margin-bottom: 20px;
+  border-radius: 18px;
+  color: #fff;
+  background: #185fc6;
+}
+.featureItem {
+  display: flex;
+  flex-direction: row;
+  height: 46px;
+  /* border: 1px solid; */
+  align-items: center;
+  overflow: hidden;
+}
+.card2 {
+  background: #124692;
+}
+.featureItem {
+  height: 48px !important;
+}
+.YouTubeMediaScrollBtn {
+  display: none;
+}
+.featureItem img {
+  width: 102px;
+}
+.featuresCardHeader {
+  padding-top: 12px;
+}
+@media only screen and (min-width: 600px) {
+  .mediaContainer {
+    padding: 40px 0px;
+  }
+  .videoBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .YouTubeContent {
+    width: 1318px;
+    flex-direction: row;
+    overflow: scroll;
+    justify-content: left;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 524px;
+  }
+  .YouTubeMediaScrollBtn {
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .featuresBox {
+    flex-direction: row;
+    padding: 13px;
+    justify-content: center;
+  }
+  .featuresCard {
+    width: 635px;
+    height: 616px;
+    margin: 0px 10px;
+  }
+  .MediaTextBox {
+    padding: 20px 0px;
+  }
+  .avatarImage {
+    width: 100%;
+  }
+  .YouTubeContent > * {
+    flex: 0 0 414px;
+  }
+  .YouTubeLogo {
+    bottom: 272px;
+    left: 191px;
+  }
+  .YouTubeCoverText {
+    bottom: 248px;
+  }
+  .featureCardItemText {
+    font-family: "Satoshi" !important;
+    font-size: 21px !important;
+    font-weight: 400 !important;
+  }
+  .featureItem img {
+    width: 145px;
+  }
+  .featureItem {
+    height: 74px !important;
+  }
+  .featuresCardHeader {
+    padding-top: 30px;
+  }
+}

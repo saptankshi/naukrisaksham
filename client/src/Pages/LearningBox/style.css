@@ -1,0 +1,134 @@
+.learningBox {
+  padding: 5% 4%;
+  /* border: 1px solid rgb(166, 21, 202); */
+  /* background-color: rgba(190, 241, 149, 0.411); */
+  background: url(../../Assets/images/learningBg.png);
+}
+
+.contentBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid red; */
+  margin-top: 36px;
+}
+.contentTab {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.contentTabItem {
+  background: #ffff;
+  width: 165px;
+  height: 43px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5px;
+  cursor: pointer;
+}
+.contentTabItemOnHover {
+  background: #fc0;
+  width: 165px;
+  height: 43px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5px;
+}
+.contentTabText {
+  margin-top: 10px !important;
+  font-size: 14px !important;
+}
+.contentText {
+  font-size: 14px !important;
+}
+.mediaBox {
+  margin-top: 25px;
+  min-height: 354px;
+}
+.polygon {
+  position: relative;
+  top: 7px;
+}
+.polygonBlock {
+  display: none;
+}
+.mediaCover {
+  background-image: url(../../Assets/images/Rectangle.png);
+  background-repeat: no-repeat;
+  height: 345px;
+  border-radius: 16px;
+}
+.media_Text {
+  margin-top: 33px;
+}
+.mediaParagraph {
+}
+.media {
+  width: 100%;
+  position: relative;
+  left: 15px;
+  top: 44px;
+}
+.mediaImage {
+  width: 89%;
+}
+@media only screen and (min-width: 600px) {
+  .mediaBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px 291px;
+    margin-top: 66px;
+    min-height: 354px;
+  }
+  .media_Text {
+    padding: 74px 0px 74px 101px;
+    width: 98%;
+    min-width: 705px;
+  }
+  .contentTab {
+    /* padding: 0px 153px; */
+    justify-content: center;
+  }
+  .contentTabItem {
+    width: 235px;
+    height: 56px;
+    margin: 0px 14px;
+  }
+  .contentTabItemOnHover {
+    width: 235px;
+    height: 56px;
+    margin: 0px 10px;
+  }
+  .mediaCover {
+    width: 100%;
+    min-width: 531px;
+    min-height: 491px;
+  }
+  .media {
+    width: 100%;
+    position: relative;
+    left: 20px;
+    top: 25px;
+    max-width: 532px;
+  }
+  .mediaImage {
+    width: 100%;
+  }
+  .contentText {
+    font-size: 18px !important;
+  }
+  .contentTabText {
+    font-size: 18px !important;
+  }
+  .polygon {
+    top: 14px;
+  }
+}
