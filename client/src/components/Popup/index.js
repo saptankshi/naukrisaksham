@@ -35,7 +35,7 @@ import spotify from "../../Assets/images/PopupBoxLogos/Spotify_Logo_CMYK_Green 1
 import solidworks from "../../Assets/images/PopupBoxLogos/6011d13a2a08e9000490aba1 1.png";
 import engineering from "../../Assets/images/PopupBoxLogos/image 107.png";
 import ansys from "../../Assets/images/PopupBoxLogos/ANSYS_logo 1.png";
-import hypermesh from "../../Assets/images/PopupBoxLogos/687474703a2f2f7777772e6d6174682e756e69762d706172697331332e66722f7e637576656c6965722f736f6674776172652f636f6465732f507974686f6e2f66632d68797065726d6573682f707966632d68797065726d65736.png";
+import hypermesh from "../../Assets/images/PopupBoxLogos/hypermesh.png";
 import siemensnx from "../../Assets/images/PopupBoxLogos/1840834 1.png";
 import catia from "../../Assets/images/PopupBoxLogos/image 108.png";
 
